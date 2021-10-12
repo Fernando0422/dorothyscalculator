@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>LA MAP</title>
+          <link rel="stylesheet" href="LA_MAP.css">
+  </head>  
+    <body>
+
+      <h1> <a href="https://www.mapcustomizer.com/map/Trans%20Resources%20In%20Los%20Angeles">hey</a></h1>
+            
+        <nav id="sideNav">
+            <ul>
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/ABOUT US/About_us.html">ABOUT US</a></li>
+            <li><a href="/RESOURCES/RESOURCES.html">RESOURCES</a></li>
+            <li><a href="/LA MAP/LA_MAP.html">L.A. MAP</a></li>
+            </ul>
+        </nav>
+        <img src="/Images/icons8-menu-24.png" id="menuBtn">
+
+        <script>
+
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            
+            sideNav.style.right = "-250px";
+            menuBtn.onclick = function(){
+                  if(sideNav.style.right == "-250px"){
+                      sideNav.style.right = "0";
+                  }
+                  else{
+                    sideNav.style.right = "-250px"
+                  }
+            }
+            
+            </script>
+            
+
+
+
+
+    </body> 
+</html>
