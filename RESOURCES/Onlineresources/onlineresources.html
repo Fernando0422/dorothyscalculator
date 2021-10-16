@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Dorothy's Calculator</title>
+          <link rel="stylesheet" href="onlineresources.css">
+  </head> 
+  <body>
+
+    <nav id="sideNav">
+      <ul>
+        <b>
+        <li><a href="/index.html">HOME</a></li>
+        <li><a href="/ABOUT US/About_us.html">ABOUT US</a></li>
+        <li><a href="/RESOURCES/RESOURCES.html">RESOURCES</a></li>
+        <li><a href="/LA MAP/LA_MAP.html">L.A. MAP</a></li>
+      </b>
+      </ul>
+    </nav>
+    <img src="/Images/icons8-menu-24.png" id="menuBtn">
+
+    <!-- Online Resources title -->
+    
+    <h1 style="padding: 10px; border: 5px solid #F5A9B6;">Online Resources</h1>
+<!-- descriptions -->
+
+
+    <!-- boxes -->
+
+    <div class="header-text">
+      
+        <div class="box2 sb9">Check out these resources!</div> 
+
+    </div>
+
+
+  <section id="header">
+
+
+<div class="box-2">
+    <div class="btn btn-two">
+      <span> <a href="https://www.plannedparenthood.org/learn/gender-identity/transgender/what-do-i-need-know-about-trans-health-care"> Planned Parenthood</a> </span>
+    </div>
+  </div>
+
+
+  <div class="box-2">
+    <div class="btn btn-two">
+      <span> <a href="https://www.plannedparenthood.org/learn/gender-identity/transgender/what-do-i-need-know-about-trans-health-care"> Insert Content</a> </span>
+    </div>
+  </div>
+
+  <div class="box-2">
+    <div class="btn btn-two">
+      <span> <a href="https://www.plannedparenthood.org/learn/gender-identity/transgender/what-do-i-need-know-about-trans-health-care"> Planned Parenthood</a> </span>
+    </div>
+  </div>
+
+</section>
+
+  
+  
+    <script>
+
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function(){
+              if(sideNav.style.right == "-250px"){
+                  sideNav.style.right = "0";
+              }
+              else{
+                sideNav.style.right = "-250px"
+              }
+        }
+        
+
+
+
+        </script>
+    </body>
+</html>
