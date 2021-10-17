@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+          <link rel="stylesheet" href="ABOUT_US.css">
+  </head>  
+
+    <body>
+      <h1 style="padding: 10px; border: 5px solid #F5A9B6;">About Us</h1>
+
+<!-- Speech bubble -->
+    <div class="box2 sb9">I'm Fernando (he/him) <br> Hey whats up!</div>
+ <!-- about us images -->
+
+ <div id ="center">  
+    <img src="/Images/Fernadno.jpg">  
+    </div>  
+     
+    <div class="box2 sb9">I'm Anna (he/him) <br> Hey whats up!</div>
+      <div id ="center">  
+      <img src="/Images/Anna.jpg">  
+      </div>  
+
+    <div class="box2 sb9">I'm Wren (they/them) <br> Hey whats up!</div>
+      <div id ="center">  
+      <img src="/Images/Wren.jpg">  
+      </div>  
+<!-- side bar -->
+        <nav id="sideNav">
+            <ul>
+              <b>
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/ABOUT US/About_us.html">ABOUT US</a></li>
+            <li><a href="/RESOURCES/RESOURCES.html">RESOURCES</a></li>
+            <li><a href="/LA MAP/LA_MAP.html">L.A. MAP</a></li>
+          </b>
+            </ul>
+        </nav>
+
+        <img src="/Images/icons8-menu-24.png" id="menuBtn">
+     
+
+<!---Footer-->
+<section id="footer">
+  <div class="container footer-row">
+  <hr>
+  <div class="footer-left-col">
+  <div class="footer-links">
+    
+    <div class="link-title">
+      <h4>About Us</h4>
+      <small>FAQs</small> <br>
+      <small>Who are we?</small>
+    </div>
+    <div class="link-title">
+      <h4>Support</h4>
+      <small><a href="/CONTACT US/CONTACT_US.html">Contact us</a></small>
+    </div>
+    <div class="link-title">
+      <h4>Explore</h4>
+      <small><a href= "/RESOURCES/RESOURCES.html">Find resources</a> </small><br>
+    </div>
+  </div>
+  </div>
+  <div class="footer-right-col">
+   <div class="footer-info">
+     <div class="copyright-text"><br>
+      <div class="footer-logo">
+        <img src="/Images/DCalculator.png">
+  
+      </div>
+      <strong>
+       <small><a href="mailto:dorothyscalculator@gmail.com">Dorothyscalculator@gmail.com</a></small><br>
+       <small>Dorothy's Calculator</small>
+      </strong>
+     </div>
+    
+   </div>
+  </div>
+  </div>
+  </section>
+  
+  <script>
+  
+  var menuBtn = document.getElementById("menuBtn")
+  var sideNav = document.getElementById("sideNav")
+  
+  sideNav.style.right = "-250px";
+  menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+        }
+        else{
+          sideNav.style.right = "-250px"
+        }
+  }
+  
+  </script>
+  
+
+
+
+
+    </body> 
+</html>
