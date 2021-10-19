@@ -19,6 +19,7 @@
     background-image: url(/Images/LosAngeles1.png);
     background-position: center;
     background-size: 1400px ;
+    padding-left: 30px;
 }
 .course-right-col{
   flex-basis: 50%;
@@ -184,10 +185,13 @@ nav ul li a{
 .feature-col{
   flex-basis: 25%;
   text-align: center;
+  
+ 
 
 }
 .feature-col img{
-  width: 100px;
+  width: 200px;
+ 
 
 }
 .feature-col h4{
@@ -210,6 +214,7 @@ nav ul li a{
 /*----courses----*/
 #resources{
   padding: 100px 0;
+  padding-left: 30px;
 }
 .course-row{
   display: flex;
@@ -308,7 +313,8 @@ hr{
 }
 .social-icons img{
   display: block;
-  width: 20px;
+  width: 110px;
   margin: 0 auto 20px;
   cursor: pointer;
+  padding-left: 10px;
 }
