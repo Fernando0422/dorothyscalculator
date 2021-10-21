@@ -132,8 +132,8 @@ background: linear-gradient(90deg, rgba(245,169,182,1) 35%, rgba(0,212,255,1) 78
   position: absolute;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 10px solid #54CDFC;
-  border-bottom: 10px solid transparent;
+
+  border-bottom: 0px solid transparent;
   right: 50%;
   bottom: -23px;
  }
@@ -145,8 +145,8 @@ background: linear-gradient(90deg, rgba(245,169,182,1) 35%, rgba(0,212,255,1) 78
   position: absolute;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 10px solid #fff;
-  border-bottom: 10px solid transparent;
+
+  border-bottom: 0px solid transparent;
   right: 50%;
   bottom: -18px;
  }

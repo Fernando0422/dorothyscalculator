@@ -137,11 +137,14 @@ nav ul li a{
 }
 /*---about---*/
 
-#about, #offer{
+#about{
   padding: 100px 0;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  background-image: url("/Images/about1.png");
+  background-position: center;
+  background-size: 700px ;
 }
 .about-left-col{
   flex-basis: 50%;
@@ -170,34 +173,46 @@ nav ul li a{
 }
 /*----features----*/
 #features{
-    padding-top: 50px;
+    padding-top: -1900px;
     padding-bottom: 50px;
+    margin-top: -300px;
+
+}
+h4{
+  padding-top: -10px
 }
 .feature-row{
   width: 80%;
   margin: auto;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
+
+ 
 
 }
 .feature-col{
   flex-basis: 25%;
   text-align: center;
-  
- 
+  position: relative;
+  padding-left: 50px;
+  padding-top: 50px;
+
+
 
 }
 .feature-col img{
   width: 200px;
- 
+  padding-bottom: -150px;
 
+}
+.providing{
+  padding-top: 10px;
 }
 .feature-col h4{
   margin-bottom: 15px;
   font-size: 20px;
   font-weight: 400;
+  padding-top: -20px;
 
 }
 .feature-btn{
@@ -215,6 +230,10 @@ nav ul li a{
 #resources{
   padding: 100px 0;
   padding-left: 30px;
+  background-image: url(/Images/losamain.png);
+  background-position: center;
+  background-size: 1400px ;
+  height: 500px;
 }
 .course-row{
   display: flex;
