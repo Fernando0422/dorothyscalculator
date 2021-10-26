@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Dorothy's Calculator</title>
+          <link rel="stylesheet" href="/pronoun dresing room/pdr.css">
+  </head> 
+    <body>
+        <h1 style="padding: 10px; border: 5px solid #F5A9B6;">Pronoun Dressing Room</h1>
+
+        <form>
+            <label for="fname"> <strong>  First name:</strong></label><br>
+            <input type="text" id="fname" name="fname" value="insert name"><br>
+            <label for="pronoun"> <strong> Subject Pronoun: </strong></label><br>
+            <input type="text" id="pronoun" name="pronoun" 
+          id="they" name = "they" value="he/she/they/etc">
+          </form>
+          
+          <div class = "paragraph">
+            
+            <p class = "teacher">My teacher is very strict. My teacher won't let us turn in late work </p>
+            
+            <p class = "shelia">
+              Sheila made a funny joke. She didnt even try to make it funny. 
+            </p>
+            
+            <p class = "lucy">
+              When Lucy housesat for us, she watered the plants. 
+            </p>
+            
+            <p class = "kim">
+              Kimberly is a marathon runner. She ran for 2 years and qualified for the Boston Marathon
+            </p>
+            
+           </div> 
+              <div class="container">
+          <button type="submit" form="form1" value="Submit">Submit</button>
+            </div>
+          
+          <nav id="sideNav">
+            <ul>
+              <b>
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/ABOUT US/About_us.html">ABOUT US</a></li>
+            <li><a href="/RESOURCES/RESOURCES.html">RESOURCES</a></li>
+            <li><a href="/LA MAP/LA_MAP.html">L.A. MAP</a></li>
+          </b>
+            </ul>
+        </nav>
+
+        <img src="/Images/icons8-menu-24.png" id="menuBtn">
+     
+
+<!---Footer-->
+<section id="footer">
+  <div class="container footer-row">
+  <hr>
+  <div class="footer-left-col">
+  <div class="footer-links">
+    
+    <div class="link-title">
+      <h4>About Us</h4>
+ 
+      <small> <a href="/ABOUT US/About_us.html">  Who are we?</a></small>
+    </div>
+    <div class="link-title">
+      <h4>Support</h4>
+      <small><a href="/CONTACT US/CONTACT_US.html">Contact us</a></small>
+    </div>
+    <div class="link-title">
+      <h4>Explore</h4>
+      <small><a href= "/RESOURCES/RESOURCES.html">Find resources</a> </small><br>
+    </div>
+  </div>
+  </div>
+  <div class="footer-right-col">
+   <div class="footer-info">
+     <div class="copyright-text"><br>
+      <div class="footer-logo">
+        <img src="/Images/DCalculator.png">
+  
+      </div>
+      <strong>
+       <small><a href="mailto:dorothyscalculator@gmail.com">Dorothyscalculator@gmail.com</a></small><br>
+       <small>Dorothy's Calculator</small>
+      </strong>
+     </div>
+    
+   </div>
+  </div>
+  </div>
+  </section>
+
+  <div class="social-icons">
+    <a href="https://www.google.com/?client=safari"><img src="/Images/exit.png" ></a>
+    </div>
+
+
+
+
+             <script>
+
+
+var menuBtn = document.getElementById("menuBtn")
+                        var sideNav = document.getElementById("sideNav")
+
+                        sideNav.style.right = "-250px";
+                        menuBtn.onclick = function(){
+                            if(sideNav.style.right == "-250px"){
+                                sideNav.style.right = "0";
+                            }
+                            else{
+                                sideNav.style.right = "-250px"
+                            }
+                        }
+
+
+ $(document).ready(function(){
+    
+    var name = ""
+    var pronoun = ""
+   
+    $("button").click(function (){
+      name = $("#fname").val()
+      pronoun = $("#pronoun").val()
+
+      $(".teacher").text(`${name} is very strict. ${pronoun} won't let us turn in late work`);
+      $(".shelia").text(`${name} made a funny joke. ${pronoun} didnt even try to make it funny`)
+      $(".lucy").text(`When ${name} housesat for us, ${pronoun} watered the plants` )
+       $(".kim").text(`${name} is a marathon runner. ${pronoun} ran for 2 years and qualified for the Boston Marathon`)
+    })
+  })
+
+
+
+             </script>
+          
+          
+
+
+
+
+    </body>
+</html>

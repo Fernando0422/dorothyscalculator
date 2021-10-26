@@ -3,6 +3,26 @@
     padding: 0;
     font-family:  Helvetica, sans-serif; 
   }
+  nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: black;
+    font: bold;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  a:link {
+    text-decoration: none;
+    color: black;
+  }
+  a:visited {
+    text-decoration: none;
+  }
   /* menu */
 #sideNav{
     width: 250px;
