@@ -26,6 +26,19 @@ h1{
       top: 90px;
   }
 
+h2{
+  width: 300px;
+  margin: 50px auto;
+  border: 4px solid #54CDFC;
+  padding: 40px;
+  text-align: center;
+  font-weight: 900;
+  color: black;
+  font-family: arial;
+  position: relative;
+  top: 90px;
+}
+
 button{
     color: black;
      height: 40px;
@@ -173,3 +186,4 @@ form{
     cursor: pointer;
     padding-left: 10px;
   }
+
