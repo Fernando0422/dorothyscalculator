@@ -329,7 +329,7 @@ hr{
 }
 
 
-@media only screen and (max-width:564px){
+@media only screen and (max-width:1284px){
 
 .container{
   margin-right: 50px;
@@ -384,8 +384,6 @@ h1 {
   background-image: url("/Images/about1.png");
   background-position: center;
   background-size: 80vh;
-  /* position: relative;
-  left: 80px; */
 }
 
 .about-text{
@@ -432,6 +430,8 @@ background: linear-gradient(90deg, rgba(245,169,182,1) 35%, rgba(0,212,255,1) 78
 
   display: inline-block;
 }
-
+.resources-text{
+  width: 150px; 
+}
 
 }
