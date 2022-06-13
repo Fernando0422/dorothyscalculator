@@ -209,3 +209,45 @@ hr{
   cursor: pointer;
   padding-left: 30px;
 }
+
+
+
+@media only screen and (max-width:564px){
+
+  .container{
+    margin-right: 50px;
+    margin-left: 50px;
+    position: relative;
+    top: -50px;
+    left: -30px;
+  }
+
+  #menuBtn{
+    width: 40px;
+    right: 50px;
+  }
+  .footer-left-col,.footer-right-col{
+    flex-basis: 100%;
+  }
+  .link-title {
+    flex-basis: 50%;
+    margin-bottom: 30px;
+  }
+  #footer {
+    position: relative;
+    top: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+  
+  }
+  
+  .footer-logo img{
+    width: 50px;
+    position: relative;
+    top: 100px;
+    left: -10px;
+  
+  }
+  
+  
+}
