@@ -24,6 +24,7 @@ h1{
       text-align: center;
       position: relative;
       top: 90px;
+      padding: 10px; border: 5px solid #F5A9B6;
   }
 
 h2{
@@ -187,3 +188,56 @@ form{
     padding-left: 10px;
   }
 
+
+  @media only screen and (max-width:564px){
+    /* footer */
+.footer-left-col,.footer-right-col{
+  flex-basis: 100%;
+}
+.link-title {
+  flex-basis: 50%;
+  margin-bottom: 30px;
+}
+#footer {
+  position: relative;
+  top: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  left: -50px;
+}
+
+.footer-logo img{
+  width: 50px;
+  position: relative;
+  top: 100px;
+  left: -15px;
+
+}
+  /* exit button */
+.social-icons img{
+  width: 60px;
+  margin: 15px auto ;
+  position: relative;
+  top: 190px;
+}
+.header-text {
+  max-width: 250px;
+  margin-top: 140px;
+}
+
+
+ /* menu */
+ #menuBtn{
+  width: 40px;
+  right: 50px;
+}
+
+h1{
+    padding: 10px; 
+    border: 5px solid #F5A9B6;
+}
+
+
+
+
+  }
