@@ -193,6 +193,8 @@ form{
     /* footer */
 .footer-left-col,.footer-right-col{
   flex-basis: 100%;
+  position: relative;
+  left: 20px;
 }
 .link-title {
   flex-basis: 50%;
@@ -203,14 +205,14 @@ form{
   top: 10px;
   align-items: center;
   flex-wrap: wrap;
-  left: -50px;
+  left: -10px;
 }
 
 .footer-logo img{
   width: 50px;
   position: relative;
   top: 100px;
-  left: -15px;
+  left: -10px;
 
 }
   /* exit button */
@@ -237,6 +239,10 @@ h1{
     border: 5px solid #F5A9B6;
 }
 
+h2{
+  width: 200px;
+  
+}
 
 
 
