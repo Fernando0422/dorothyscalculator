@@ -55,6 +55,15 @@
 h1 {
   font-size: 34px;
 }
+/* learn more button */
+.learn-more{
+  padding: 9px 20px;
+  background: white;
+  outline: none;
+  border: 2px solid #000000;
+  font-weight: bold;
+  cursor: pointer;
+}
 .square{ 
   height: 20px;
   width: 20px;
@@ -72,7 +81,6 @@ background: linear-gradient(90deg, rgba(245,169,182,1) 35%, rgba(0,212,255,1) 78
   border: 2px solid #000000;
   font-weight: bold;
   cursor: pointer;
-  font: 900;
 }
 p{
   font-size: 15px;
