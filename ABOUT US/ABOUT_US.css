@@ -116,13 +116,26 @@ h1{
 #center {  
     text-align: center;
 }
-img {
-    border-radius: 50%;
-    width: 100px;
-    position: relative;
-    align-items: center;
-    top: 60px;
-  }
+
+/* Fernando */
+
+#fernando{
+  border-radius: 50%; 
+  width: 100px;
+  position: relative; 
+  align-items: center;
+  top: 60px;
+}
+
+/* anna */
+#anna{
+  border-radius: 50%; 
+  width: 100px;
+  position: relative; 
+  align-items: center;
+  top: 60px;
+}
+
 /* Footer */
 
 #footer {
@@ -318,6 +331,18 @@ hr{
   top: 100px;
   left: -10px;
 
+}
+
+#anna{
+  position: relative; 
+  align-items: center;
+  top: -10px;
+}
+
+#fernando{
+  position: relative; 
+  align-items: center;
+  top: -10px;
 }
 
 
