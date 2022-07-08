@@ -14,6 +14,13 @@
       position: absolute;
       top: -50px;
   }
+
+  /* copyright */
+  .copyright{
+    text-align: center;
+    position: relative;
+    top: 10px;
+  }
   /* links */
   nav ul li{
     list-style: none;
@@ -292,6 +299,20 @@ hr{
 
 }
 
+/* infographic */
+
+img{
+  width: 50%;
+  padding-bottom: 20px;
+  top: 30px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 
 @media only screen and (max-width:564px){
 
@@ -347,6 +368,10 @@ hr{
 .header-text {
   max-width: 250px;
   margin-top: 140px;
+  position: relative;
+  left: 35px;
+  align-items: center;
+
 }
 
 .box2 {
@@ -363,6 +388,16 @@ hr{
     display: flex;
     top: -10px;
     left: 25px;
+}
+
+img{
+  width: 70%;
+  padding-bottom: 20px;
+  top: 30px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
