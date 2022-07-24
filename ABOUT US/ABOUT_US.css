@@ -37,6 +37,128 @@ h1{
   a:visited {
     text-decoration: none;
   }
+
+
+/* Why Dorothy's Calculator */
+
+#header{
+  height: 100vh;
+  background-image: url(/Images/LosAngeles1.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  top: -250px;
+}
+h3{
+  font-size: xx-large;
+}
+.course-right-col{
+flex-basis: 50%;
+}
+.course-right-col img{
+width: 100%;
+}
+.container{
+margin-right: 100px;
+margin-left: 100px;
+position: relative;
+top: 190px;
+}
+.header-text {
+max-width: 450px;
+margin-top: 190px;
+}
+
+#about{
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-position: center;
+  background-size: 70vh;
+  position: relative;
+  top: -650px;
+  font-size: x-large;
+}
+  
+.about-left-col{
+  flex-basis: 50%;
+}
+.about-left-col img{
+  width: 100%;
+}
+.about-right-col{
+  flex-basis: 50%;
+  text-align: right;
+}
+.about-text{
+  max-width: 450px;
+  margin-right: 180px;
+  display: inline-block;
+  width: 120%;
+  position: relative;
+}
+.about-text h2{
+  margin: 50px 0 10px;
+  font-size: 28px;
+  font-style: italic;
+}
+
+/* squares */
+.square{ 
+height: 20px;
+width: 20px;
+display: inline-block;
+background: rgb(245,169,182);
+background: linear-gradient(90deg, rgba(245,169,182,1) 35%, rgba(0,212,255,1) 78%);
+margin: 15px 0;
+color: black;
+
+}
+.common-btn {
+padding: 18px 40px;
+background: white;
+outline: none;
+border: 2px solid #000000;
+font-weight: bold;
+cursor: pointer;
+}
+p{
+font-size: 15px;
+line-height: 18px;
+color: black;
+}
+.header-text button{
+margin-top: 20px;
+margin-bottom: 16px;
+}
+.line-1 {
+width: 20px;
+height: 20px;
+background: rgb(245,169,182);
+background: linear-gradient(90deg, rgba(245,169,182,1) 35%, rgba(0,212,255,1) 78%);
+
+display: inline-block;
+}
+.line-2 {
+width: 80px;
+height: 1px;
+background: #000000;
+display: inline-block;
+}
+.line-3 {
+width: 60px;
+height: 1px;
+background: #000000;
+display: inline-block;
+}
+.line{
+line-height: 8px;
+}
+
+  
+
+
   /* menu */
 #sideNav{
     width: 250px;
@@ -149,8 +271,11 @@ h1{
 /* Footer */
 
 #footer {
-  padding: 50px 0 30px;
-
+  position: relative;
+  top: -510px;
+  align-items: center;
+  flex-wrap: wrap;
+  left: -10px;
 }
 hr{
   width: 100%;
@@ -163,7 +288,7 @@ hr{
   justify-content: space-between;
   flex-wrap: wrap;
   position: relative;
-  top: 50px;
+  top: -50px;
 }
 .footer-left-col{
   flex-basis: 50%;
@@ -239,82 +364,32 @@ hr{
 
 @media only screen and (max-width:564px){
 
-  .container{
+.container{
     margin-right: 50px;
     margin-left: 50px;
     position: relative;
     top: -50px;
     left: -30px;
   }
-
-  #menuBtn{
+#menuBtn{
     width: 40px;
     right: 50px;
   }
-
-  .footer-logo img{
+.footer-logo img{
     width: 50px;
     position: relative;
     top: 100px;
     left: -10px;
   
   }
-  h1{
-    margin: 0;
-      font-family:  Helvetica, sans-serif; 
-      text-align: center;
-      position: relative;
-      top: 90px;
-      padding: 10px; 
-      border: 5px solid #F5A9B6;
-  }
   
-  .social-icons img{
+.social-icons img{
     width: 60px;
     margin: 15px auto ;
     position: relative;
     top: 190px;
   }
-  .box2 {
-    width: 200px;
-    margin: 50px auto;
-    border: 4px solid #54CDFC;
-    padding: 20px;
-    text-align: center;
-    font-weight: 900;
-    color: black;
-    font-family: arial;
-    position: relative;
-    top: 90px;
-  }
-
-  .sb9:before {
-    content: "";
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid #54CDFC;
-    border-bottom: 10px solid transparent;
-    right: 50%;
-    bottom: -23px;
-   }
-
-   .sb9:after {
-    content: "";
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid #fff;
-    border-bottom: 10px solid transparent;
-    right: 50%;
-    bottom: -18px;
-   }
-
-   #center {  
+#center {  
     text-align: center;
     position: relative;
     top: 80px;
@@ -329,7 +404,7 @@ hr{
 }
 #footer {
   position: relative;
-  top: 100px;
+  top: -450px;
   align-items: center;
   flex-wrap: wrap;
 
@@ -343,17 +418,6 @@ hr{
 
 }
 
-#anna{
-  position: relative; 
-  align-items: center;
-  top: -10px;
-}
-
-#fernando{
-  position: relative; 
-  align-items: center;
-  top: -10px;
-}
 
 /* being developed */
 h2{
@@ -361,8 +425,34 @@ h2{
   position: relative;
   top: 80px;
   left: -120px;
-  width: 90%;
+  width: 100%;
 }
 
+.about-left-col,.about-right-col{
+  flex-basis: 100%;
+  position: relative;
+}
+#about{
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  left: 40px;
+  background-position: center;
+  background-size: 80vh;
+}
 
+.about-text{
+  margin: 50px 50px 0;
+  display: inline-block;
+  max-width: 200px;
+  left: -20px;
+  top: 140px;
+}
+.about-text h2{
+  font-size: 18px;
+}
+.header-text {
+  margin-top: 450px;
+}
 }
